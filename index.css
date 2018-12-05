@@ -203,7 +203,8 @@ Tablet and Desktop Style; Mobile Styles get out.
     }
 
     #image1 {
-        width: 50%;
+        width: 60%;
+        float: left;
     }
 
     #image3 {
