@@ -98,7 +98,9 @@ Mobile only styles; Tablets and desktops get out.
 @media only screen and (max-width:480px) {
 
     /* start media */
-    dl {
+    dl,
+    #image3,
+    #image1 {
         display: none;
     }
 
@@ -129,6 +131,7 @@ Mobile only styles; Tablets and desktops get out.
     #logo img {
         width: 100%;
     }
+
 
     /* end media */
 }
@@ -205,10 +208,14 @@ Tablet and Desktop Style; Mobile Styles get out.
     #image1 {
         width: 60%;
         float: left;
+        margin-left: 2%;
+        margin-right: 2%;
     }
 
     #image3 {
-        width: 40%;
+        width: 30%;
+        margin-left: 3%;
+        margin-right: 3%
     }
 
     /* end media */
