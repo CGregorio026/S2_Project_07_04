@@ -58,7 +58,7 @@ body {
 }
 
 nav ul li {
-    text-align: center
+    text-align: center;
 }
 
 /* 
@@ -87,6 +87,7 @@ nav ul li a:active {
 
 footer {
     width: 100%;
+    text-align: center;
 }
 
 /* 
@@ -166,8 +167,6 @@ Tablet and Desktop Style; Mobile Styles get out.
         width: 100%;
     }
 
-
-
     /* 
         Content Collapse :)
     */
@@ -217,6 +216,41 @@ Tablet and Desktop Style; Mobile Styles get out.
         margin-left: 3%;
         margin-right: 3%
     }
+
+
+
+
+    ul.submenu {
+        display: none;
+    }
+
+    a.dropdown:hover+ul.submenu,
+    ul.submenu:hover {
+        display: block;
+    }
+
+    ul.mainmenu>li {
+        float: left;
+        width: 16.6%;
+        position: relative;
+    }
+
+    ul.submenu {
+        width: 100%;
+
+        position: absolute;
+    }
+
+    ul.submenu li {
+        background-color: white;
+    }
+
+
+    ul.submenu {
+        position: absolute;
+        width: 100%;
+    }
+
 
     /* end media */
 }
